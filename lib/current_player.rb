@@ -1,5 +1,9 @@
 def turn_count(board)
-  counter = 0 
+  turn(board).each do |counter|
+    counter += 1 
+  end 
+  
+  return counter
   
   
   
